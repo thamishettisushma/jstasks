@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var temperature=+prompt("Enter the temperature");
+        var b=temperature>30?"Hot": (temperature>=20 && temperature<=30)?"Warm": (temperature>=10 && temperature<=19)? "Cool": (temperature<10 && temperature>0)? "Cold":"sub-zero temperature";
+        console.log(b);
+    </script>
+</body>
+</html>
